@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Meeting.Domain.Shared;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Meeting.Domain
@@ -7,7 +8,7 @@ namespace Meeting.Domain
     {
         public static void Register(this IServiceCollection services, IConfiguration configuration)
         {
-
+            DomainSharedModule.Register(services, configuration);
         }
     }
 }
