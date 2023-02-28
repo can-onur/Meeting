@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Meeting.Application
+namespace Meeting.Domain
 {
-    public static class AppicationModule
+    public static class DomainModule
     {
         public static void Register(this IServiceCollection services, IConfiguration configuration)
         {
-         
+
         }
     }
 }

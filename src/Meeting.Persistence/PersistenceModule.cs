@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Meeting.Application
+namespace Meeting.Persistence
 {
-    public static class AppicationModule
+    public static class PersistenceModule
     {
         public static void Register(this IServiceCollection services, IConfiguration configuration)
         {
-         
+
         }
     }
 }
