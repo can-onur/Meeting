@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meeting.Application.Contracts\Meeting.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Meeting.Domain\Meeting.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
